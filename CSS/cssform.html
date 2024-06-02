@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       .body{
+        font-family: 'Sofia',sans-serif;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+       }
+        .container{
+            background-color: slategray;
+            width: 20rem;
+            padding: 20px 10px;
+            margin-top: 20px;
+            box-shadow: 0px 14px 28px maroon;
+            border-radius: 10px 20px;
+        }
+        .form{
+            background-color: lemonchiffon;
+            padding: 20px 25px;
+        }
+        .Register{
+            text-align: center;
+            font-size: 30px;
+        }
+        span{
+            color: red;
+        }
+        input{
+            width: 90%;
+        }
+        .name{
+            width: 93%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+           
+        }
+        .button{
+            background-color: seagreen;
+            width: 200px;
+            margin: 0px 26px;
+            border-radius: 20px;
+            border-style: none;
+        }
+        @media screen and (max-width:400px) {
+            body{
+                background-color: aqua;
+            }
+            .name{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form ">
+            <div class="Register">
+                <h1>Register
+                    <br>
+                    <span>Sign Up for free</span>
+                </h1>
+              
+            </div>
+            
+            <form action="">
+                <div class="name">
+                <input type="text" name="" id="" placeholder="Firstname">
+                <input type="text" name="" id="" placeholder="Lastname">   
+                </div>
+               <br>
+                <input type="Email" name="" id="" placeholder="Email"><br><br>
+                <input type="password" name="" id="" placeholder="Password"><br><br>
+                <input type="password" name="" id="" placeholder="Confirm Password"><br>
+                <div>
+                    <div>
+                        login width<ion-icon name="logo-facebook" style="font-size: 20px; color: blue;"></ion-icon><br>
+                        login width<ion-icon name="logo-instagram" style="font-size: 20px; color: palevioletred;"></ion-icon>
+                    </div>
+                </div>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+                    <input type="checkbox" name="" id="" style="width: 20px; >Accept Terms and Condition>
+               
+                </div>
+                <input type="button" name="" class="button" value="Register">
+            </form>
+        </div>
+        <div style="text-align: center;">
+            Already have an account?
+            <a href="">Sign in</a>
+        </div>
+       
+    </div>
+  
+</body>
+</html>
